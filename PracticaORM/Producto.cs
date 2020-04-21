@@ -15,6 +15,7 @@ namespace PracticaORM
         public string Codigo { get => codigo; set => codigo = value; }
         public string Marca { get => marca; set => marca = value; }
         public decimal Precio { get => precio; set => precio = value; }
+
     }
    
 }

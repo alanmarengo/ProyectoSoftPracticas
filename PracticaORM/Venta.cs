@@ -16,5 +16,9 @@ namespace PracticaORM
         public int ProductoID { get => productoID; set => productoID = value; }
         public int ClienteID { get => clienteID; set => clienteID = value; }
         public DateTime Fecha { get => fecha; set => fecha = value; }
+
+        public virtual Cliente ClienteNavigator { get; set; }
+        public virtual Producto ProductoNavigator { get; set; }
+
     }
 }

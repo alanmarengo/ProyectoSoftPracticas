@@ -6,8 +6,17 @@ namespace PracticaORM
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            
+            //using (var db = new Contexto())
+            //{
+            //    Producto Prod = new Producto()
+            //    {
+            //        Marca = "Adidas",
+            //        Precio = 12,
+            //        Codigo = "uaefihjhj12"
+
+            //    }; 
+            //    db
+            //}
         }
     }
 }
